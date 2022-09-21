@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form onsubmit="event.preventDefault()" name="fdata">
+UserName: <input type="text" name='uname' required/>
+<br/>
+Email: <input type="text" required name='email'/>
+<br/>
+Password :<input type ="password" required name ='password'/>
+<br/>
+Number :<input type ="number" required name ='number'/>
+<br/>
+City :<input type ="text" required name ='city'/>
+
+
+<button onclick="addData()">add</button>
+    </form>
+    <button onclick="showData()">show</button>
+    <br/>
+    <div id='show'></div>
+ <script src="day-1/jsdemos/scripts/form2.js"></script>
+</body>
+</html>
+
+
